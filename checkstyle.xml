@@ -33,7 +33,9 @@
             <property name="max" value="100"/>
             <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
         </module>
-        <module name="AvoidStarImport"/>
+        <module name="AvoidStarImport">
+            <property name="severity" value="error"/>
+        </module>
         <module name="OneTopLevelClass"/>
         <module name="NoLineWrap"/>
         <module name="EmptyBlock">
@@ -160,7 +162,9 @@
             <message key="ws.notPreceded"
              value="GenericWhitespace ''{0}'' is not preceded with whitespace."/>
         </module>
-        <module name="Indentation"/>
+        <module name="Indentation">
+            <property name="severity" value="error"/>
+        </module>
         <module name="AbbreviationAsWordInName"/>
         <module name="OverloadMethodsDeclarationOrder"/>
         <module name="VariableDeclarationUsageDistance"/>
@@ -170,6 +174,7 @@
             <property name="separated" value="true"/>
             <property name="option" value="above"/>
             <property name="sortStaticImportsAlphabetically" value="true"/>
+            <property name="severity" value="error"/>
         </module>
         <module name="MethodParamPad"/>
         <module name="NoWhitespaceBefore">
