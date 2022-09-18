@@ -28,4 +28,4 @@ The differences are:
 - Empty exception catch blocks are only allowed when the catch parameter is named
   "expected", "ignore" or "ignored".
 
-
+Javadoc-related checks are located in [checkstyle-javadoc.xml](checkstyle-javadoc.xml).
