@@ -6,6 +6,7 @@ the respective [Checkstyle config](https://github.com/checkstyle/checkstyle/blob
 
 The differences are:
 - **The offset of indentation is the Checkstyle default (4 spaces).**
+- The line length limit is 120 instead of 100.
 - No need to comment switch fall throughs. A proper test case should cover it.
 - Package names, type names, member names and parameter names may contain underscores. 
   But the first character of theses names cannot be an underscore.
